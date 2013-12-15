@@ -1,12 +1,12 @@
-#ifndef BMW_E12_H
-#define BMW_E12_H
+#ifndef MAZDA_MX5_H
+#define MAZDA_MX5_H
 #include "car.h"
 
 
-class bmw_e12: public car {
+class mazda_mx5: public car {
 public:
-	bmw_e12();		//konstruktor
-	~bmw_e12();
+	mazda_mx5();		//konstruktor
+	~mazda_mx5();
 
 	float power();	//gettery
 	float maxspeed();

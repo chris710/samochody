@@ -5,7 +5,11 @@
 
 using namespace std;
 
-string parsename(string type) {
+string parsename(string type){ // w visual studio typeid(x).name() zwraca "class x", wiec obcinamy pierwsze 6 znakow - czyli 'class '
+	return type.erase(0,6);
+}
+
+/*string parsename(string type) {		//deprecated
 	stringstream ss;
 	ss << "c++filt ­t " << type;
 	FILE *pipe = _popen(ss.str().c_str(), "r");
@@ -20,4 +24,4 @@ string parsename(string type) {
 	_pclose(pipe);
 	return
 	result.erase(result.find_last_not_of(" \n\r\t")+1);
-}
+}*/

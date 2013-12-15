@@ -24,6 +24,33 @@
     <ClInclude Include="bmw_e12.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="mazda_rx7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mazda_rx8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nissan_350z.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="honda_s2000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mazda_mx5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="citroen_ds5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mitsubishi_lancer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subaru_impreza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="toyota_celica.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="parsename.cpp">
@@ -33,6 +60,33 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="bmw_e12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mazda_rx7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mazda_rx8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nissan_350z.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="honda_s2000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mazda_mx5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="citroen_ds5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mitsubishi_lancer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subaru_impreza.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="toyota_celica.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

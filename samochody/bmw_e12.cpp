@@ -13,12 +13,14 @@ bmw_e12::~bmw_e12() {
 float bmw_e12::power(){
 	return this->moc;
 }
-float bmw_e12::speed(){
+float bmw_e12::maxspeed(){
 	return this->vmax;
 }
 float bmw_e12::acceleration(){
 	return this->a100;
 }
+
+std::vector <car *> car::cars;
 
 
 bmw_e12::init::init() {

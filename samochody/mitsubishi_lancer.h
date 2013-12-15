@@ -1,12 +1,12 @@
-#ifndef BMW_E12_H
-#define BMW_E12_H
+#ifndef MITSUBISHI_LANCER_H
+#define MITSUBISHI_LANCER_H
 #include "car.h"
 
 
-class bmw_e12: public car {
+class mitsubishi_lancer: public car {
 public:
-	bmw_e12();		//konstruktor
-	~bmw_e12();
+	mitsubishi_lancer();		//konstruktor
+	~mitsubishi_lancer();
 
 	float power();	//gettery
 	float maxspeed();

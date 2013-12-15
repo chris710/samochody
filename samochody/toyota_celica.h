@@ -1,12 +1,12 @@
-#ifndef BMW_E12_H
-#define BMW_E12_H
+#ifndef TOYOTA_CELICA_H
+#define TOYOTA_CELICA_H
 #include "car.h"
 
 
-class bmw_e12: public car {
+class toyota_celica: public car {
 public:
-	bmw_e12();		//konstruktor
-	~bmw_e12();
+	toyota_celica();		//konstruktor
+	~toyota_celica();
 
 	float power();	//gettery
 	float maxspeed();

@@ -1,12 +1,12 @@
-#ifndef BMW_E12_H
-#define BMW_E12_H
+#ifndef SUBARU_IMPREZA_H
+#define SUBARU_IMPREZA_H
 #include "car.h"
 
 
-class bmw_e12: public car {
+class subaru_impreza: public car {
 public:
-	bmw_e12();		//konstruktor
-	~bmw_e12();
+	subaru_impreza();		//konstruktor
+	~subaru_impreza();
 
 	float power();	//gettery
 	float maxspeed();

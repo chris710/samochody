@@ -62,12 +62,30 @@
   <ItemGroup>
     <ClInclude Include="bmw_e12.h" />
     <ClInclude Include="car.h" />
+    <ClInclude Include="citroen_ds5.h" />
+    <ClInclude Include="honda_s2000.h" />
+    <ClInclude Include="mazda_mx5.h" />
+    <ClInclude Include="mazda_rx7.h" />
+    <ClInclude Include="mazda_rx8.h" />
+    <ClInclude Include="mitsubishi_lancer.h" />
+    <ClInclude Include="nissan_350z.h" />
     <ClInclude Include="parsename.h" />
+    <ClInclude Include="subaru_impreza.h" />
+    <ClInclude Include="toyota_celica.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bmw_e12.cpp" />
+    <ClCompile Include="citroen_ds5.cpp" />
+    <ClCompile Include="honda_s2000.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mazda_mx5.cpp" />
+    <ClCompile Include="mazda_rx7.cpp" />
+    <ClCompile Include="mazda_rx8.cpp" />
+    <ClCompile Include="mitsubishi_lancer.cpp" />
+    <ClCompile Include="nissan_350z.cpp" />
     <ClCompile Include="parsename.cpp" />
+    <ClCompile Include="subaru_impreza.cpp" />
+    <ClCompile Include="toyota_celica.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

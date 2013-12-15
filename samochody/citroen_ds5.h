@@ -1,12 +1,12 @@
-#ifndef BMW_E12_H
-#define BMW_E12_H
+#ifndef CITROEN_DS5_H
+#define CITROEN_DS5_H
 #include "car.h"
 
 
-class bmw_e12: public car {
+class citroen_ds5: public car {
 public:
-	bmw_e12();		//konstruktor
-	~bmw_e12();
+	citroen_ds5();		//konstruktor
+	~citroen_ds5();
 
 	float power();	//gettery
 	float maxspeed();

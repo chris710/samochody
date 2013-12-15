@@ -1,12 +1,12 @@
-#ifndef BMW_E12_H
-#define BMW_E12_H
+#ifndef NISSAN_350Z_H
+#define NISSAN_350Z_H
 #include "car.h"
 
 
-class bmw_e12: public car {
+class nissan_350z: public car {
 public:
-	bmw_e12();		//konstruktor
-	~bmw_e12();
+	nissan_350z();		//konstruktor
+	~nissan_350z();
 
 	float power();	//gettery
 	float maxspeed();

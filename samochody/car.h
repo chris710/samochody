@@ -8,7 +8,7 @@ class car {
 public:
 	virtual float power() = 0;
 	virtual	float maxspeed() = 0;
-	virtual float acceleration0_100() = 0;
+	virtual float acceleration() = 0;
 	static vector<car *> cars;
 };
 

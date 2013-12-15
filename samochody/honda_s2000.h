@@ -1,12 +1,12 @@
-#ifndef BMW_E12_H
-#define BMW_E12_H
+#ifndef HONDA_S2000_H
+#define HONDA_S2000_H
 #include "car.h"
 
 
-class bmw_e12: public car {
+class honda_s2000: public car {
 public:
-	bmw_e12();		//konstruktor
-	~bmw_e12();
+	honda_s2000();		//konstruktor
+	~honda_s2000();
 
 	float power();	//gettery
 	float maxspeed();
